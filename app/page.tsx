@@ -1,12 +1,5 @@
 export default function Home() {
   return (
-<<<<<<< HEAD
-    <div className="flex min-h-screen items-center justify-center">
-      <h1 className="text-xl font-normal text-zinc-900 dark:text-zinc-100">
-        Superachiever — Single Family Office Benefits
-      </h1>
-    </div>
-=======
     <main className="flex min-h-screen flex-col items-center justify-center p-8 sm:p-24">
       <div className="max-w-4xl text-center space-y-8">
         <div className="space-y-2">
@@ -33,6 +26,5 @@ export default function Home() {
         </div>
       </div>
     </main>
->>>>>>> 222a244 (feat: add basic splash page for superachiever.xyz)
   );
 }

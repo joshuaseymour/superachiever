@@ -28,17 +28,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-<<<<<<< HEAD
-.pnpm-debug.log*
-
-# env files (can opt-in for committing if needed)
-.env*
-=======
 
 # local env files
 .env*.local
 .env
->>>>>>> 222a244 (feat: add basic splash page for superachiever.xyz)
 
 # vercel
 .vercel
@@ -46,9 +39,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
-<<<<<<< HEAD
-=======
 
 # pnpm
 pnpm-lock.yaml
->>>>>>> 222a244 (feat: add basic splash page for superachiever.xyz)
