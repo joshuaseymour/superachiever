@@ -3,7 +3,7 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Superachiever — Single Family Office Benefits",
-  description: "Empowering superachievers with single family office benefits and resources.",
+  description: "Single Family Office Benefits",
 };
 
 export default function RootLayout({
