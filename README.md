@@ -6,14 +6,14 @@ This repo is the product source of truth on Origin (`joshuaseymour/superachiever
 
 ## Splash
 
-Four canon lines on the Avolve hard-black shell. No button, form, waitlist, or header.
+Four canon lines in the original splash fold: same scale, spacing, and motion as the sibling shells, on the shadcn slate field with the violet glow. No button, form, waitlist, or header.
 
 1. Superachiever
 2. Single Family Office Benefits
 3. Asynchronously Create Your Success Puzzle
 4. Enjoy greater personal & business success via your single family office.
 
-`html` / `body` use explicit `background-color: #000` in `app/globals.css` (not Tailwind `bg-black` alone). Geist for the stack; Geist Mono only on the descriptor.
+The page paints with shadcn slate (`bg-background` / `text-foreground`). The glow is Tailwind `violet-500` at 8% and 16%. Geist for the stack; Geist Mono only on the descriptor.
 
 ## Local
 

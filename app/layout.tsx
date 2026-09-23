@@ -1,26 +1,48 @@
 import type { Metadata, Viewport } from "next"
 import { Geist, Geist_Mono } from "next/font/google"
 
-import { SITE } from "@/lib/site"
 import "./globals.css"
+import { ThemeProvider } from "@/components/theme-provider"
+import { SITE } from "@/lib/site"
+import { cn } from "@/lib/utils"
 
-const geistSans = Geist({
-  subsets: ["latin"],
-  variable: "--font-geist-sans",
-})
+const geist = Geist({ subsets: ["latin"], variable: "--font-sans" })
 
-const geistMono = Geist_Mono({
+const fontMono = Geist_Mono({
   subsets: ["latin"],
-  variable: "--font-geist-mono",
+  variable: "--font-mono",
 })
 
 export const metadata: Metadata = {
-  title: `${SITE.name} — ${SITE.descriptor}`,
+  metadataBase: new URL(SITE.url),
+  title: {
+    default: `${SITE.name} — ${SITE.descriptor}`,
+    template: `%s — ${SITE.name}`,
+  },
   description: SITE.summary,
+  openGraph: {
+    type: "website",
+    siteName: SITE.name,
+    url: SITE.url,
+    title: `${SITE.name} — ${SITE.descriptor}`,
+    description: SITE.summary,
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: `${SITE.name} — ${SITE.descriptor}`,
+    description: SITE.summary,
+  },
 }
 
+/**
+ * theme-color makes the browser/OS chrome match the page instead of banding
+ * against it — one of the clearest "this is an app" signals on mobile.
+ */
 export const viewport: Viewport = {
-  themeColor: "#000000",
+  themeColor: [
+    { media: "(prefers-color-scheme: light)", color: "#ffffff" },
+    { media: "(prefers-color-scheme: dark)", color: "#020617" },
+  ],
 }
 
 export default function RootLayout({
@@ -32,17 +54,23 @@ export default function RootLayout({
     <html
       lang="en"
       suppressHydrationWarning
-      style={{ backgroundColor: "#000" }}
-      className={`antialiased ${geistMono.variable} font-sans ${geistSans.variable}`}
+      className={cn(
+        "antialiased",
+        fontMono.variable,
+        "font-sans",
+        geist.variable
+      )}
     >
-      <body style={{ backgroundColor: "#000" }} className="text-zinc-50">
-        <a
-          href="#main"
-          className="sr-only rounded-md bg-zinc-900 px-4 py-2 text-sm font-medium text-zinc-50 focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:ring-2 focus:ring-zinc-400"
-        >
-          Skip to content
-        </a>
-        {children}
+      <body>
+        <ThemeProvider>
+          <a
+            href="#main"
+            className="sr-only rounded-md bg-background px-4 py-2 text-sm font-medium focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-50 focus:ring-2 focus:ring-ring"
+          >
+            Skip to content
+          </a>
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   )
