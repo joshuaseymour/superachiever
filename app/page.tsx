@@ -1,14 +1,14 @@
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-8">
+    <div className="flex min-h-screen flex-col items-center justify-center p-8 bg-black">
       <div className="text-center space-y-2">
-        <h1 className="text-4xl sm:text-5xl font-light tracking-tight">
+        <h1 className="text-4xl sm:text-5xl font-light tracking-tight text-zinc-50">
           Superachiever
         </h1>
-        <p className="text-lg sm:text-xl text-muted-foreground">
+        <p className="text-lg sm:text-xl text-zinc-400">
           Single Family Office Benefits
         </p>
       </div>
-    </main>
+    </div>
   );
 }
