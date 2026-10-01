@@ -3,7 +3,44 @@
 **Research Date:** September 30, 2026  
 **Context:** Superachiever weekly page product — founders running business + family, potential $29-99/month self-serve SaaS, Jan 2027 launch target
 
-**Research Method:** Real verbatim quotes from Reddit (r/Entrepreneur, r/startups, r/daddit, r/Mommit, r/workingmoms), Indie Hackers, Hacker News, founder blogs. All quotes sourced. Economics benchmarks from industry reports 2024-2026. No invented data.
+---
+
+## STRICT FACT-CHECK SUMMARY (September 30, 2026)
+
+**Verification Method:** Direct web fetch of all cited URLs with excerpt extraction. Reddit posts could not be verified (anti-bot timeouts).
+
+**Material Verified:**
+- ✅ 15 verbatim quotes from founder/parent blogs (Nicole Farber, Lucy Griffiths, NY Single Mom, AZ Big Media, Priya Udeshi Substack)
+- ✅ Trial conversion rates 8.9-18.2% (ChartMogul 200 companies, First Page Sage 86 companies, Spike AI)
+- ✅ Churn 6.5-7% monthly for productivity/consumer SaaS (RetentionCheck, ChurnTools)
+- ✅ Meta CPM $10-17 for parent/baby vertical (AdRiseLab 2026)
+- ✅ 30-day guarantee +11% conversion, 3.2% refund rate (Visionary Marketing 4,200 A/B tests)
+- ✅ Objection shares: 26% free tier sufficient, 20% tool too complex (RetentionCheck)
+- ✅ 40% of top baby/parent Meta ads are UGC (AdRiseLab 2026)
+- ✅ CAC/LTV/payback calculations: all formulas re-derived and mathematically correct
+
+**Material Removed:**
+- ❌ 70+ Reddit quotes (r/startups, r/Mommit, r/Entrepreneur, r/daddit, r/workingmoms) — unable to verify due to anti-bot protection
+- ❌ Indie Hackers quotes (not fetched)
+- ❌ Hacker News quotes (not cited with URLs)
+
+**Vendor Data Labeled:**
+- RetentionCheck (churn benchmarks): vendor platform, medium confidence
+- ChurnTools (churn benchmarks): vendor platform, medium confidence  
+- AdRiseLab (Meta benchmarks): agency vendor, medium-high confidence
+
+**Quote Survival by Group:**
+- Mothers: 6 verified blog quotes (down from 10 total with Reddit removed)
+- Fathers: 1 verified quote (down from 20 total with Reddit removed)
+- Single Parents: 8 verified quotes (unchanged, all from blogs)
+- Total: 15 verified quotes remain
+
+**Economic Benchmarks: 100% Verified**
+All trial conversion, churn, ad cost, refund rate, and CAC/LTV calculations verified against source documents with formulas shown. See Appendix A for full evidence table.
+
+---
+
+**Research Method (Revised):** Verbatim quotes from verified founder blogs and published industry reports. Reddit posts removed due to verification failure. Economics benchmarks from industry reports 2024-2026 (ChartMogul, RetentionCheck, ChurnTools, Visionary Marketing, AdRiseLab, Triple Whale, Aleph/Benchmarkit). All economic modeling re-derived and verified. No invented data.
 
 ---
 
