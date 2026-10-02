@@ -23,7 +23,7 @@ One page filled in together every Sunday (~30 min) by whoever shares your week. 
 
 **Solved:** Family calendars (Cozi Gold $39/yr, Max $79.99/yr), work+personal planners (Sunsama $20/mo, Akiflow $20/mo, Motion $34/mo, Reclaim $10/mo, Amie $12/mo, Morgen $9/mo), finance (Monarch $100/yr, YNAB $109/yr), human services (Duckbill $99/$169/$350/mo; Magic/Athena unverified).
 
-**Gap:** Two people, one page, home + work, 30 min every Sunday. Seven tools combine work+personal, but all are solo. FairShare (Fair Play app, iPhone-only, mid-2026) not yet ruled out.
+**Gap clarification:** Two people sharing one weekly page already exists free for home life: Tandem (tandem-app.eu), "a free couples organizer for shared tasks, calendars, expenses, routines, and Weekly Sync," with a published "Weekly Couple Planning Meeting (30-Minute Template)." The open gap is work plus home on one page, with someone handling follow-through between Sundays. That is what a paid seat must deliver. Seven work+personal tools exist (Sunsama, Akiflow, Motion, Reclaim, Amie, Morgen, Notion), but all are solo. FairShare (Fair Play app, iPhone-only, mid-2026) not yet ruled out. **Source:** docs/research/05-gap-check.md (cursor/top-content-research-0789).
 
 ---
 
@@ -59,7 +59,7 @@ All fit copy rules (ask don't tell; 'whoever shares your week'; peer voice; no '
 
 **Habit:** Median 66 days (18-254), Lally 2010. Missing week hurts formation. Implementation intentions d=0.27-0.66 (642 tests).
 
-**Gap:** Seven tools combine work+personal (Sunsama, Akiflow, Motion, Reclaim, Amie, Morgen, Notion), all solo. Unserved: two people, one page, 30 min Sunday, home + work. Session as deliverable, not just calendar.
+**Gap clarification:** Two people sharing one weekly page already exists free for home life: Tandem (tandem-app.eu), "a free couples organizer for shared tasks, calendars, expenses, routines, and Weekly Sync," with a published "Weekly Couple Planning Meeting (30-Minute Template)." The open gap is work plus home on one page, with someone handling follow-through between Sundays. That is what a paid seat must deliver. Seven tools combine work+personal (Sunsama, Akiflow, Motion, Reclaim, Amie, Morgen, Notion), all solo. Unserved: two people, one page, 30 min Sunday, home + work. Session as deliverable, not just calendar. **Source:** docs/research/05-gap-check.md (cursor/top-content-research-0789).
 
 ---
 
@@ -173,6 +173,11 @@ All fit copy rules (ask don't tell; 'whoever shares your week'; peer voice; no '
 **Human services (unverified):**  
 - Magic: Pricing mentioned in report but not independently verified
 - Athena: Pricing mentioned in report but not independently verified
+
+**Two-person home planning (free):**  
+- Tandem (tandem-app.eu): "a free couples organizer for shared tasks, calendars, expenses, routines, and Weekly Sync," with "Weekly Couple Planning Meeting (30-Minute Template)"
+- **Source:** docs/research/05-gap-check.md (cursor/top-content-research-0789)
+- **Note:** Free for home life only; does not integrate work; no follow-through support between Sundays
 
 ### Content Performance (Verified Metrics)
 
